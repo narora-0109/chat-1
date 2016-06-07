@@ -6,7 +6,7 @@ class PagesControllerTest < ActionController::TestCase
     get :index
     assert_response :success
     assert_select "title", "Welcome | Real-time chat application"
-    assert_select "h1", "Welcome to our site!"
+    assert_select "h1", "Welcome!"
   end
 
 end
