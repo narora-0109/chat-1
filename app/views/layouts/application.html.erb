@@ -17,6 +17,10 @@
   <body>
     <%= render 'layouts/header' %>
 
+    <% if current_page?(root_path) %>
+      <%= render 'layouts/slider' %>
+    <% end %>
+
     <div class="container">
       <% flash.each do |message_type, message| %>
         <div class="alert alert-<%= message_type %>"><%= message %></div>
