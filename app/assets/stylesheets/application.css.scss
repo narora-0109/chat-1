@@ -27,8 +27,8 @@
     text-align: center;
 }
 
-.navbar {
-  margin-bottom:0;
+.carousel-inner {
+  margin-top: -20px;
 }
 
 .footer {
@@ -63,4 +63,15 @@
 
 h1.text-center {
   margin:40px 0;
+}
+
+p.signup {
+  margin: 10px 0;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #555;
+  background-color: #f5f5f5;
 }
